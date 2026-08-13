@@ -11,5 +11,5 @@ if head > 0:
         gain1 = fah % head
         buy += gain
         fah += gain1 + gain
-
+       
 print(buy)
