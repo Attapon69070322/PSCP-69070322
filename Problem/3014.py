@@ -10,6 +10,6 @@ if head > 0:
         gain = (fah // head) * head1
         gain1 = fah % head
         buy += gain
-        fah += gain1 + gain
-       
+        fah = gain1 + gain
+
 print(buy)

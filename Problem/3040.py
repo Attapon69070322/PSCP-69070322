@@ -8,7 +8,7 @@ num2 = money // 2
 money = money % 2
 num1 = money
 
-print(f"10 =" + {num10})
-print(f"5 =" + {num5})
-print(f"2 =" + {num2})
-print(f"1 =" + {num1})
+print(f"10 = {num10:.0f}")
+print(f"5 = {num5:.0f}")
+print(f"2 = {num2:.0f}")
+print(f"1 = {num1:.0f}")
