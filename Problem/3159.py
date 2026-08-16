@@ -1,6 +1,8 @@
 """FACT"""
 num = int(input())
-for i in range (num):
-    i = i*num
 
-print(i)
+F = 1
+for i in range (1, num+1):
+    F = F*i
+
+print(F)
