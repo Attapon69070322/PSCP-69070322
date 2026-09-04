@@ -1,6 +1,3 @@
-number = input().split()
-numlist = list(map(float, number))
-
 def sumavg(sumy):
 
     total = 0
@@ -11,3 +8,6 @@ def sumavg(sumy):
     print (sumy)
 
 sumavg(numlist)
+
+number = input().split()
+numlist = list(map(float, number))
