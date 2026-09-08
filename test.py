@@ -1,13 +1,4 @@
-def sumavg(sumy):
-
-    total = 0
-
-    for i in sumy:
-        total += i
-
-    print (sumy)
-
-sumavg(numlist)
-
-number = input().split()
-numlist = list(map(float, number))
+t1 = "12345"
+m = list(t1)
+k = m[-2:]
+print(k)
