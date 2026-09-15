@@ -1,6 +1,6 @@
 """fifah"""
 n = int(input())
 n1 = int(input())
-k = "*"
-for i in range(1,n1):
-    print(n*k)
+center = n1 // 2
+for i in range(n1):
+    print(" "*abs(i - center) + "*"*n)
