@@ -1,6 +1,12 @@
-"""Yeah right yeah right"""
-n = int(input())
-n1 = int(input())
-center = n1 // 2
-for i in range(n1):
-    print(" "*abs(i - center) + "*"*n)
+"""Right Arrow"""
+def main():
+    """main"""
+    k = int(input())
+    n = int(input())
+    mid = n // 2
+
+    for i in range(n):
+        spaces = mid - abs(mid - i)
+        print(" " * spaces + "*" * k)
+
+main()
